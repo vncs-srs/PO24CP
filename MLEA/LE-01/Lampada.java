@@ -8,13 +8,16 @@ public class Lampada
     private double Potencia;
     private String Marca;
     private String Modelo;
-    private double Preco;
+    private float Preco;
     
     // metodos
 
-    public void vendaLampada()
+    public void vendaLampada(double Potencia,String Marca, String Modelo, float Preco)
     {
-        
+        Potencia = 15;
+        Marca = "Generica";
+        Modelo = "Led";
+        Preco = 14;
     }
 
 }
