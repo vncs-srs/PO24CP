@@ -1,4 +1,16 @@
 //Escreva um modelo de classe para representar uma lâmpada que está a venda em um supermercado.
+/*
+
+//Resposta
+--------------------------------------------------
+VendaLampada
+--------------------------------------------------
+-preco
+-dodosProduto
+--------------------------------------------------
+-dodosDoProduto()
+-verificaPreco() 
+*/
 
 //Nome da classe/objeto
 public class Lampada
