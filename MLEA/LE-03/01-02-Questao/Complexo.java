@@ -29,7 +29,7 @@ public class Complexo {
             return a + " + " + b + "i";
         }
     }
-}
+
     public void imprimeNumero(float parteReal,float parteImaginaria){
         System.out.println(a + b );
     }
