@@ -7,21 +7,17 @@ public class usaComplexo {
         Complexo c2 = new Complexo();
         c2.inicializaNumero(2, -5);
         System.out.println("Número complexo 2: " + c2.toString());
-
+        
         // Adiciona os dois números complexos
-        Complexo soma = new Complexo();
-        soma.soma((int)c1.a, (int)c1.b);
-        soma.soma((int)c2.a, (int)c2.b);
-        System.out.println("Soma dos números complexos: " + soma.toString());
+        c1.soma(c2);
+        System.out.println("Soma dos números complexos: " + c1.toString());
 
         // Subtrai os dois números complexos
-        Complexo diferenca = new Complexo();
-        diferenca.subtrai(c1.a, c1.b);
-        diferenca.subtrai(c2.a, c2.b);
-        System.out.println("Diferença dos números complexos: " + diferenca.toString());
+        c1.subtrai(c2);
+        System.out.println("Diferença dos números complexos: " + c1.toString());
 
         // Multiplica os dois números complexos
-        Complexo produto = new Complexo();
+       /* Complexo produto = new Complexo();
         produto.multiplica(c1.a, c1.b);
         produto.multiplica(c2.a, c2.b);
         System.out.println("Produto dos números complexos: " + produto.toString());
@@ -30,6 +26,6 @@ public class usaComplexo {
         Complexo quociente = new Complexo();
         quociente.divide(c1.a, c1.b);
         quociente.divide(c2.a, c2.b);
-        System.out.println("Quociente dos números complexos: " + quociente.toString());
+        System.out.println("Quociente dos números complexos: " + quociente.toString());*/
     }
 }

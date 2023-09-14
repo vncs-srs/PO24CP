@@ -11,8 +11,8 @@ divide, que recebe outra instância da classe Complexo e divide o número encaps
 */
 
 public class Complexo {
-    public float a;
-    public float b;
+    private float a;
+    private float b;
 
     public void inicializaNumero(float parteReal,float parteImaginaria){
         this.a = parteReal;
@@ -33,20 +33,20 @@ public class Complexo {
     public void imprimeNumero(float parteReal,float parteImaginaria){
         System.out.println(a + b );
     }
-    public void soma(int c,int d){
-        a = (a+c);
-        b = (b+d);
+    public void soma(Complexo s){
+        a = a+s.a;
+        b = b+s.b;
     }
-    public void subtrai(float c,float d){
-        a = (a-c);
-        b = (b-d);
+    public void subtrai(Complexo d){
+      a = a-d.a;
+      b = b-d.b;
     }
-    public void multiplica(float c,float d){
+    /*public void multiplica(float c,float d){
         a = ((a*c)+(b*d));
         b = ((a*d)+(b*c));
     }
     public void divide(float c,float d){
         a = ((a*c)+(b*d))/((c*c)+(d*d));
         b = ((b*c)-(a*d))/((c*c)+(d*d));
-    }
+    }*/
 }
