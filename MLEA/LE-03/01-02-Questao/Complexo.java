@@ -11,8 +11,8 @@ divide, que recebe outra instância da classe Complexo e divide o número encaps
 */
 
 public class Complexo {
-    private float a;
-    private float b;
+    public float a;
+    public float b;
 
     public void inicializaNumero(float parteReal,float parteImaginaria){
         this.a = parteReal;
