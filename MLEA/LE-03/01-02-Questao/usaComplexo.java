@@ -17,15 +17,11 @@ public class usaComplexo {
         System.out.println("Diferença dos números complexos: " + c1.toString());
 
         // Multiplica os dois números complexos
-       /* Complexo produto = new Complexo();
-        produto.multiplica(c1.a, c1.b);
-        produto.multiplica(c2.a, c2.b);
-        System.out.println("Produto dos números complexos: " + produto.toString());
+        c1.multiplica(c2);
+        System.out.println("Produto dos números complexos: " + c1.toString());
 
         // Divide os dois números complexos
-        Complexo quociente = new Complexo();
-        quociente.divide(c1.a, c1.b);
-        quociente.divide(c2.a, c2.b);
-        System.out.println("Quociente dos números complexos: " + quociente.toString());*/
+        c1.divide(c2);
+        System.out.println("Quociente dos números complexos: " + c1.toString());
     }
 }
